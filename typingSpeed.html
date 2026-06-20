@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=alarm" />
+  <link rel="stylesheet" href="typingSpeed.css
+  ">
+  <title>Document</title>
+</head>
+<body class="body">
+  <div class="overlay"></div>
+  <div class="slider-cont">
+    <div class="slider"></div>
+  </div>
+  <h1 class="h1">JUST TYPE.</h1>
+  
+  <div class="container">
+    <div class="categories">
+    <button id="time">
+      <span style="font-size: 14px; " class="material-symbols-outlined">
+      alarm
+      </span>
+      time
+    </button>
+    <button class="active" id="words">
+      <span style="font-family: Georgia, serif; margin-right: 8px;">A</span>
+      words
+    </button>
+    </div>
+    <div class="amounts">
+      <p class="active">15</p>
+      <p>30</p>
+      <p>60</p>
+      <p>120</p>
+    </div>
+    <p style="cursor: default;" class="watch">TIME</p>
+  </div>
+  
+  <div class="text-cont">
+    <div class="para-cont"></div>
+    
+    <p class="inp"></p>
+    <div class="result">
+      <p>wpm <span id="wpm" style="display: block; text-align: center; color: rgb(255, 255, 255);"></span></p>
+      
+        
+        
+        <p>time <span id="secs" style="display: block; text-align: center; color: rgb(255, 255, 255);"></span></p>
+        
+      
+      <p>test type <span id="type" style="display: block; text-align: center; color: rgb(255, 255, 255);"></span></p>
+      
+      <button class="restart" onclick="enable();">RESTART</button>
+    </div>
+    
+  <script src="typingSpeed.js"></script>
+</body>
+</html>
